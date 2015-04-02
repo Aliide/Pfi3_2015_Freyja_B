@@ -13,6 +13,29 @@ import android.widget.TextView;
 import java.util.Random;
 
 public class MainActivity extends ActionBarActivity {
+    @Override
+    protected void onStart() {
+        super.onStart(); // k
+        Log.i("Start","The app starts");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i("Stop","The app stops");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i("Destroy","Destroyed");
+    }
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+        Log.i("Resume","The app is resumed");
+    }
 
     Random rand = new Random();
     int i =0;
