@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pfi3_2015_Freyja_B</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="quotes">
+        <item>Stern, if this factory ever produces a shell that can actually be fired, Ill be very unhappy.</item>
+        <item>There will be generations because of what you did.</item>
+        <item>I pardon you.</item>
+    </string-array>
+
+</resources>
