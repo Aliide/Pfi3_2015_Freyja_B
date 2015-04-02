@@ -2,11 +2,13 @@
     <string name="app_name">Pfi3_2015_Freyja_B</string>
 
     <string name="action_settings">Settings</string>
+    <string name="Next_Quote">Next Quote</string>
+    <string name="myButton">Next Quote</string>
 
     <string-array name="quotes">
-        <item>Stern, if this factory ever produces a shell that can actually be fired, Ill be very unhappy.</item>
-        <item>There will be generations because of what you did.</item>
-        <item>I pardon you.</item>
+        <item>I cant rite now. Im sitting.</item>
+        <item>Tip. of the day - always eat the crunchy part.</item>
+        <item>The grass got my socks wet. Either that or the bath did.</item>
     </string-array>
 
 </resources>

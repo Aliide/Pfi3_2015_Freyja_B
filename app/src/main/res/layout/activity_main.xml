@@ -9,9 +9,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next Quote"
-        android:id="@+id/button"
-        android:onClick="buttonOnClick"
+        android:text="@string/myButton"
+        android:id="@+id/myButton"
+        android:onClick="onClick"
         android:clickable="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -21,17 +21,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text=""
         android:id="@+id/textView2"
         android:layout_marginTop="98dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="32dp"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Quotes"
+        android:text=""
         android:id="@+id/textView3"
         android:layout_marginTop="98dp"
         android:layout_alignParentTop="true"

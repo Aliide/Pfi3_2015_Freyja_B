@@ -1,10 +1,13 @@
 package com.example.freyjabjornsdottir.pfi3_2015_freyja_b;
 
+import android.content.res.Resources;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.Random;
@@ -14,14 +17,25 @@ public class MainActivity extends ActionBarActivity {
     Random rand = new Random();
     int i =0;
 
-    public void buttonClickable(View v){
+    public void onClick(View v){
+
+        Log.i("MyApp", "Button pressed");
         TextView t1 = (TextView) findViewById(R.id.textView2);
 
-        i=rand.nextInt(3);
-        String[] quotes=getResources().getStringArray(R.array.quotes);
+        t1.setText(null);
 
-        t1.setText(quotes[i]);
+
+        String[] Q = getResources().getStringArray(R.array.quotes);
+
+        i=rand.nextInt(Q.length);
+
+        t1.setText(Q[i]);
+
+
+
     }
+
+
 
 
     @Override
